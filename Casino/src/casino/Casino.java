@@ -27,14 +27,19 @@ public class Casino {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        // Declaring local variable to store player game selection
         int game;
         
+        // instantiate the class scanner, and also Player
         scan = new Scanner(System.in);
         
         player = new Player();
         
+        // variable game equal to method call displayMenu
         game = displayMenu();
         
+        // switch statemeht to identify which game, each case instatiates class. along with fail case.
         switch(game) {
             case Constants.BLACK_JACK:
                 blackJack = new BlackJack();
@@ -52,15 +57,20 @@ public class Casino {
         }
     }
     
+    // private static displayMenu
     private static int displayMenu() {
+        
+        // an int called select to return at the end.
         int select;
         
+        // print the game menu and prompt user for input. with scan
         do {
-        
+            System.out.println("Welcome to Knights Casino!");
+            System.out.println("");
             System.out.println("Select a game to play");
             System.out.println("1. Black Jack");
             System.out.println("2. Scratch Off Tickets");
-            System.out.println("Slot Machines");
+            System.out.println("3. Slot Machines");
             System.out.println("Enter the number of your choice");
             
             select = scan.nextInt();
