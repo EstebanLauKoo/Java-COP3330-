@@ -20,47 +20,11 @@ public class BasicConcepts {
     public static void main(String[] args) {
         // Create two different 
         // Bicycle objects
-        Bicycle trik;
-        
-        // declaration
-        Bicycle bike = new Bicycle();
-        
-        bike.applyBrakes(12);
-        bike.changeCadence(23);
-        
-        bike.setCadence(10);
-        System.out.println(bike.getCadence());
-        System.out.println(bike.getCounter());
-        
-        // Instantiating a class
-        Bicycle bike1 = new Bicycle();
-        bike1.setCadence(20);
-        System.out.println(bike1.getCadence());
-        System.out.println(bike1.getCounter());
-        
-        Bicycle bike2 = new Bicycle();
-        bike2.setCadence(30); 
-        System.out.println(bike2.getCadence());
-        System.out.println("*********** counter versus count **************");
-        System.out.println(bike2.getCounter());
-        System.out.println(bike2.getCount());
-        // Initializing an object
-//        Bicycle bike3 = new Bicycle(10,12,13);
 
-        // Invoke methods on 
-        // those objects
-        bike1.changeCadence(50);
-        bike1.speedUp(10);
-        bike1.changeGear(2);
+        int x;
         
-        bike2.changeCadence(50);
-        bike2.speedUp(10);
-        bike2.changeGear(2);
-        bike2.changeCadence(40);
-        bike2.speedUp(10);
-        bike2.changeGear(3);
+        x = 160 / 20 / 4;
         
-        Testing testTestTest = new Testing();
-        
+        System.out.println("%d", x);
     }
 }

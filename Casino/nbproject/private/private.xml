@@ -3,11 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/esteb/Java-COP3330-/Casino/src/casino/Casino.java</file>
-            <file>file:/C:/Users/esteb/Java-COP3330-/Casino/src/contants/Constants.java</file>
-            <file>file:/C:/Users/esteb/Java-COP3330-/Casino/src/casino/Player.java</file>
+            <file>file:/C:/Users/esteb/Java-COP3330-/Casino/src/constants/Constants.java</file>
+            <file>file:/C:/Users/esteb/Java-COP3330-/Casino/src/blackjack/Card.java</file>
             <file>file:/C:/Users/esteb/Java-COP3330-/Casino/src/blackjack/BlackJack.java</file>
-            <file>file:/C:/Users/esteb/Java-COP3330-/Casino/src/scratchOffs/ScratchOffs.java</file>
+            <file>file:/C:/Users/esteb/Java-COP3330-/Casino/src/blackjack/Deck.java</file>
             <file>file:/C:/Users/esteb/Java-COP3330-/Casino/src/slots/Slots.java</file>
         </group>
     </open-files>

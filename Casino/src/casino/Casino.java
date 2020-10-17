@@ -6,7 +6,7 @@
 package casino;
 
 import blackjack.BlackJack;
-import contants.Constants;
+import constants.Constants;
 import java.util.Scanner;
 import scratchOffs.ScratchOffs;
 import slots.Slots;
@@ -27,7 +27,7 @@ public class Casino {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+ 
         // Declaring local variable to store player game selection
         int game;
         
@@ -42,13 +42,15 @@ public class Casino {
         // switch statemeht to identify which game, each case instatiates class. along with fail case.
         switch(game) {
             case Constants.BLACK_JACK:
-                blackJack = new BlackJack();
+                blackJack = new BlackJack(player);
+                blackJack.play();
                 break;
             case Constants.SCRATCH:
                 scratchOffs = new ScratchOffs();
                 break;
             case Constants.SLOTS:
-                slots = new Slots();
+                slots = new Slots(player);
+                slots.play();
                 break;
             default: {
                 System.out.println("Invalid");
