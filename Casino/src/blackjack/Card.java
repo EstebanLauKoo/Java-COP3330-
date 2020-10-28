@@ -18,6 +18,7 @@ public class Card {
     private Face face;
     private Suit suit;
     private Color color;
+    private int value;
 
     /**
      * @return the face
@@ -84,6 +85,54 @@ public class Card {
         return false;
         
         }
+    }
+    
+    public String toString() {
+    
+        String card = this.face + " of " + this.suit;
+        
+        return card;
+    
+    }
+
+    /**
+     * @return the value
+     */
+    public int getValue() {
+        value = 0;
+        
+        if (face == face.TWO)
+            value = 2;
+        else if(face == face.THREE)
+            value = 3;
+        else if(face == face.FOUR)
+            value = 4;        
+        else if(face == face.FIVE)
+            value = 5;
+        else if(face == face.SIX)
+            value = 6;
+        else if(face == face.SEVEN)
+            value = 7;
+        else if(face == face.EIGHT)
+            value = 8;
+        else if(face == face.NINE)
+            value = 9;
+        else if(face == face.TEN || 
+                face == face.JACK || 
+                face == face.QUEEN || 
+                face == face.KING)
+            value = 10;
+        else if(face == face.ACE)
+            value = 11;
+        
+        return value;
+    }
+
+    /**
+     * @param value the value to set
+     */
+    public void setValue(int value) {
+        this.value = value;
     }
 
 }

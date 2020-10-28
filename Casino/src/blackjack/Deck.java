@@ -24,25 +24,25 @@ public class Deck {
     
     public Deck() {
     
-        System.out.println("***************************");
-        System.out.println("Shuffling the deck of cards");
-        System.out.println("***************************");
+//        System.out.println("***************************");
+//        System.out.println("Shuffling the deck of cards");
+//        System.out.println("***************************");
         generateDeck();
-        
-        System.out.println("***************************");
-        System.out.println("Displaying the shuffled deck of cards");
-        System.out.println("***************************");
-        displayDeck();
-        
-        System.out.println("***************************");
-        System.out.println("Shuffling the deck of cards");
-        System.out.println("***************************");
-        shuffleDeck();
-        
-        System.out.println("*************************************");
-        System.out.println("Displaying the shuffled deck of cards");
-        System.out.println("*************************************");;
-        displayDeck();
+//        
+//        System.out.println("***************************");
+//        System.out.println("Displaying the shuffled deck of cards");
+//        System.out.println("***************************");
+//        displayDeck();
+//        
+//        System.out.println("***************************");
+//        System.out.println("Shuffling the deck of cards");
+//        System.out.println("***************************");
+         shuffleDeck();
+//        
+//        System.out.println("*************************************");
+//        System.out.println("Displaying the shuffled deck of cards");
+//        System.out.println("*************************************");;
+//        displayDeck();
                 
     }
     
@@ -71,7 +71,6 @@ public class Deck {
                 
                 if(deck.contains(card) == true) {
                     
-                System.out.println("Card already in");
                 
                 } 
                 
