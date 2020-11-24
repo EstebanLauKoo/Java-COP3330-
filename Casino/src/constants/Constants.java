@@ -76,6 +76,15 @@ public class Constants {
         ACE      
     }
     
+    // ScratchOff Constants
+    
+    public static final int ONE_DOLLAR = 1;
+    
+    public static final int FIVE_DOLLAR = 5;
+    
+    public static final int TEN_DOLLAR = 10;
+    
+    
     
     
 }

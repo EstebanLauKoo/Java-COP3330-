@@ -46,7 +46,8 @@ public class Casino {
                 blackJack.play();
                 break;
             case Constants.SCRATCH:
-                scratchOffs = new ScratchOffs();
+                scratchOffs = new ScratchOffs(player);
+                scratchOffs.play();
                 break;
             case Constants.SLOTS:
                 slots = new Slots(player);
